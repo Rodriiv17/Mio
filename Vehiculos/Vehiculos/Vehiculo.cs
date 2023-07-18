@@ -34,7 +34,7 @@ namespace Vehiculos
             double pepe = valorbase+( x * 0.01);
             Console.WriteLine(pepe);
         }
-
+        //holalaa
         internal void CalcularEtiqueta()
         {
             switch (etiqueta)

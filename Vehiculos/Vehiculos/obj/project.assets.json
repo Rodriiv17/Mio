@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pmpcurso1\\Desktop\\clase1\\Vehiculos\\Vehiculos\\Vehiculos.csproj",
+      "projectUniqueName": "C:\\Users\\pmpcurso1\\Source\\Repos\\Rodriiv17\\Mio\\Vehiculos\\Vehiculos\\Vehiculos.csproj",
       "projectName": "Vehiculos",
-      "projectPath": "C:\\Users\\pmpcurso1\\Desktop\\clase1\\Vehiculos\\Vehiculos\\Vehiculos.csproj",
+      "projectPath": "C:\\Users\\pmpcurso1\\Source\\Repos\\Rodriiv17\\Mio\\Vehiculos\\Vehiculos\\Vehiculos.csproj",
       "packagesPath": "C:\\Users\\pmpcurso1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pmpcurso1\\Desktop\\clase1\\Vehiculos\\Vehiculos\\obj\\",
+      "outputPath": "C:\\Users\\pmpcurso1\\Source\\Repos\\Rodriiv17\\Mio\\Vehiculos\\Vehiculos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
