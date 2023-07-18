@@ -7,19 +7,19 @@
             var coche1 = new Vehiculo();
             coche1.marca = "ferrari";
             coche1.valorbase = 1000;
-            coche1.antiguedad = 2021;
+            coche1.antiguedad = new DateTime(2021);
             coche1.etiqueta = "sinetiqueta";
 
             var coche2 = new Vehiculo();
             coche2.marca = "opel";
             coche2.valorbase = 1000;
-            coche2.antiguedad = 1998;
+            coche2.antiguedad = new DateTime(1998);
             coche2.etiqueta = "etiquetaB";
 
             var coche3 = new Vehiculo();
             coche3.marca = "fiat";
             coche3.valorbase = 1000;
-            coche3.antiguedad = 1996;
+            coche3.antiguedad = new DateTime(1996);
             coche3.etiqueta = "etiquetaECO";
 
             var numeros = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8 };

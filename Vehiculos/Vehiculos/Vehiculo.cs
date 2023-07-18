@@ -5,13 +5,13 @@ namespace Vehiculos
     {
         DateTime P = DateTime.Now;
         int x;
-        int pepe;
+
         //public enum Etiquetaeco
         //{
         //    sinetiqueta, etiquetaB,etiquetaC,etiquetaECO,etiquetaCERO
         //}
 
-        public Vehiculo( string marca, int valorbase,int antiguedad, string etiqueta) 
+        public Vehiculo( string marca, int valorbase,DateTime antiguedad, string etiqueta) 
         {
             this.marca = marca;
             this.valorbase = valorbase;
@@ -25,16 +25,15 @@ namespace Vehiculos
 
         public string marca { get; set; }
         public int valorbase { get; set; }
-        public int antiguedad { get; set; }
+        public DateTime antiguedad { get; set; }= DateTime.Now;
         public string etiqueta { get; set; }
 
         internal void CalcularAntiguedad()
         {
-            var x = DateTime.Now.Year - antiguedad;
-            double pepe = valorbase+( x * 0.01);
-            Console.WriteLine(pepe);
+            TimeSpan timeSpan1 = DateTime.Today - antiguedad;
+            Console.WriteLine(timeSpan1);
         }
-        //holalaaheufgwufbfwbjfwbjf
+
         internal void CalcularEtiqueta()
         {
             switch (etiqueta)
