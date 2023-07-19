@@ -13,6 +13,7 @@ namespace Coches
             int i;
             Console.Write("¿cuantos coches vas a querer almacenar?(max 8)");
             int j = Convert.ToInt32(Console.ReadLine());
+            var lista1 = new List<CrearCoche>();
             for (i = 1; i <= j; i++)
             {
                 Console.Write("Dame una marca a de vehiculo");
@@ -35,12 +36,15 @@ namespace Coches
                     nuevocarro.color = color;
                     nuevocarro.fechacompra = year;
                 }
-                CrearCoche[] array1 = new CrearCoche[8];
-                array1[i]=(nuevocarro);
-                Console.WriteLine(array1[i].marca +" "+ array1[i].modelo + " " + array1[i].color+" "+ array1[i].fechacompra);
-                Console.Write(array1[i]);
- 
+                lista1.Add(nuevocarro);
+
             }
+            foreach (CrearCoche coche in lista1)
+            {
+                Console.WriteLine(coche.marca + " " + coche.modelo + " " + coche.color + " " + coche.fechacompra);
+            }
+
+
         }
     }
 }
