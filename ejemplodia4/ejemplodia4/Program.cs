@@ -26,14 +26,16 @@ namespace ejemplodia4 //HERENCIAS
                                                     where empleado.Nombre.StartsWith("j")
                                                     orderby empleado.Nombre
                                                     select empleado;
+            
 
             foreach (var empleado in lista) 
             {
-                //if (empleado.Nombre.StartsWith("j"))
-                //{
-                 //   Console.WriteLine(empleado.Nombre);
+
+                if (empleado.Nombre.StartsWith("j"))
+                {
+                   Console.WriteLine(empleado.Nombre);
                     empleado.CalculoVacaciones();
-               // }
+                }
             }
 
             try

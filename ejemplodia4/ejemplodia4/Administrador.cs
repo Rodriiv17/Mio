@@ -19,7 +19,7 @@ namespace ejemplodia4
 
         public string plazaparking()
         {
-            throw new ErrorBaseDatosExcepcion("Error base de datos", DateTime.Now);
+            throw new ErrorBaseDatosExcepcion("Error base de datos", DateTime.Now); //con el  throw no se va a llegar al return nunca
             return Plaza ? "Plaza Numero 1" : " No tiene Plaza";
         }
 
