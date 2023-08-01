@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploMetodosExtension", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extensiones", "Extensiones\Extensiones.csproj", "{D03C2734-804A-4697-BC5A-47AF30B60BE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploFuncAction", "EjemploFuncAction\EjemploFuncAction.csproj", "{2DDA687A-D49C-4C25-BAAD-045B5645CCD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploFuncAction", "EjemploFuncAction\EjemploFuncAction.csproj", "{2DDA687A-D49C-4C25-BAAD-045B5645CCD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjLinq", "EjLinq\EjLinq.csproj", "{3CFECBA6-427B-4F5D-AB2D-F777F9A08239}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{2DDA687A-D49C-4C25-BAAD-045B5645CCD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DDA687A-D49C-4C25-BAAD-045B5645CCD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DDA687A-D49C-4C25-BAAD-045B5645CCD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CFECBA6-427B-4F5D-AB2D-F777F9A08239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CFECBA6-427B-4F5D-AB2D-F777F9A08239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CFECBA6-427B-4F5D-AB2D-F777F9A08239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CFECBA6-427B-4F5D-AB2D-F777F9A08239}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
