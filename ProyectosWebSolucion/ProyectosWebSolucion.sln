@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyectoWebVacio", "ProyectoWebVacio\ProyectoWebVacio.csproj", "{B336CCCC-DE91-4B54-9C3D-0A2BEB50A90F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploWebAspNetCore", "EjemploWebAspNetCore\EjemploWebAspNetCore.csproj", "{4F4FCF3C-B848-498E-B2CB-D16432BF37B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploBlazor", "EjemploBlazor\EjemploBlazor.csproj", "{824E1CF9-1706-4111-A5CF-B70FFC7F26AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploAPI", "EjemploAPI\EjemploAPI.csproj", "{B6DDDE4C-4CB7-491C-881A-3C1D557CD186}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EejmploAngular", "EejmploAngular\EejmploAngular.csproj", "{64211BAD-F24C-4577-A2FF-EE991CF856B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploMvc", "EjemploMvc\EjemploMvc.csproj", "{C2391032-6426-4B24-889F-560142EF6194}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EejemploMvcConversor", "EejemploMvcConversor\EejemploMvcConversor.csproj", "{52C9F2C2-D0C3-4216-8D51-DAC9B20716CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B336CCCC-DE91-4B54-9C3D-0A2BEB50A90F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B336CCCC-DE91-4B54-9C3D-0A2BEB50A90F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B336CCCC-DE91-4B54-9C3D-0A2BEB50A90F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B336CCCC-DE91-4B54-9C3D-0A2BEB50A90F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F4FCF3C-B848-498E-B2CB-D16432BF37B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F4FCF3C-B848-498E-B2CB-D16432BF37B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F4FCF3C-B848-498E-B2CB-D16432BF37B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F4FCF3C-B848-498E-B2CB-D16432BF37B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{824E1CF9-1706-4111-A5CF-B70FFC7F26AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{824E1CF9-1706-4111-A5CF-B70FFC7F26AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{824E1CF9-1706-4111-A5CF-B70FFC7F26AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{824E1CF9-1706-4111-A5CF-B70FFC7F26AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6DDDE4C-4CB7-491C-881A-3C1D557CD186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6DDDE4C-4CB7-491C-881A-3C1D557CD186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6DDDE4C-4CB7-491C-881A-3C1D557CD186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6DDDE4C-4CB7-491C-881A-3C1D557CD186}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64211BAD-F24C-4577-A2FF-EE991CF856B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64211BAD-F24C-4577-A2FF-EE991CF856B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64211BAD-F24C-4577-A2FF-EE991CF856B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64211BAD-F24C-4577-A2FF-EE991CF856B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2391032-6426-4B24-889F-560142EF6194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2391032-6426-4B24-889F-560142EF6194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2391032-6426-4B24-889F-560142EF6194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2391032-6426-4B24-889F-560142EF6194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52C9F2C2-D0C3-4216-8D51-DAC9B20716CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52C9F2C2-D0C3-4216-8D51-DAC9B20716CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52C9F2C2-D0C3-4216-8D51-DAC9B20716CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52C9F2C2-D0C3-4216-8D51-DAC9B20716CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {555478B5-5129-4369-A39C-CB0D8E9B95EB}
+	EndGlobalSection
+EndGlobal
