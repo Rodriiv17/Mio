@@ -12,6 +12,10 @@ internal class Program
         var builder = WebApplication.CreateBuilder(args);
 
         // Add services to the container.
+        builder.Services.AddControllers(configure =>
+        {
+            configure.ReturnHttpNotAcceptable = true;
+        });
 
         builder.Services.AddControllers();
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -29,11 +33,11 @@ internal class Program
 
         builder.Services.AddCors(options =>
         {
-            options.AddDefaultPolicy(builder =>
+            options.AddPolicy("AllowAll", builder =>
             {
-                builder.WithOrigins("http://localhost:4200")
-                        .AllowAnyHeader()
-                        .AllowAnyMethod();
+                builder.AllowAnyOrigin()
+                       .AllowAnyMethod()
+                       .AllowAnyHeader();
             });
         });
 
@@ -52,6 +56,12 @@ internal class Program
 
         app.MapControllers();
 
+        app.UseCors("AllowAll");
+
         app.Run();
+
+        
+
+
     }
 }

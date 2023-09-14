@@ -1,0 +1,51 @@
+<form (ngSubmit)="onSubmit()" class="needs-validation">
+    <div class="form-group">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" [(ngModel)]="formData.Nombre" name="nombre" class="form-control" required>
+        <div class="invalid-feedback">Por favor, ingrese su nombre.</div>
+    </div>
+    <div class="form-group">
+        <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fechaNacimiento" [(ngModel)]="formData.FechaNacimiento" name="fechaNacimiento"
+            class="form-control" required>
+        <div class="invalid-feedback">Por favor, ingrese su fecha de nacimiento.</div>
+    </div>
+    <div class="form-group">
+        <label for="telefono">Teléfono:</label>
+        <input type="text" id="telefono" [(ngModel)]="formData.Telefono" name="telefono" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<div class='card mx-5 my-3'>
+    <div class='card-header custom-card-header'>
+        <strong>{{pageTitle}}</strong>
+    </div>
+    <div class='card-body'>
+        <div class="table-responsive">
+            <table class='table' *ngIf='personas.length'>
+                <thead>
+                    <tr>
+                        <th class='col-md-2'>Id</th>
+                        <th class='col-md-2'>Nombre</th>
+                        <th class='col-md-2'>Años</th>
+                        <th class='col-md-2'>Telefono</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor='let person of personas'>
+                        <td class='col-md-2'>{{ person.id}}</td>
+                        <td class='col-md-2'>{{ person.nombre}}</td>
+                        <td class='col-md-2'>{{ person.anios }}</td>
+                        <td class='col-md-2'>{{ person.telefono }}</td>
+
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+        <div *ngIf='!personas.length'><strong>No hay personas...</strong></div>
+
+    </div>
+
+</div>
