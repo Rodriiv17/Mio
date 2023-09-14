@@ -14,7 +14,7 @@ namespace Persistence.Migrations
                                 SELECT TOP 10 *
                                 FROM Personas
                                 WHERE DATEDIFF(YEAR, FechaNacimiento, GETDATE()) >= 21
-                                ORDER BY FechaNacimiento DESC;
+                                ORDER BY Nombre;
                             END
                         ");
         }

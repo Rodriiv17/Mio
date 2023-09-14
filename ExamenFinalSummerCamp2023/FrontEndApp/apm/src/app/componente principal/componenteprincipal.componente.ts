@@ -33,6 +33,8 @@ export class ComponentePrincipalModule implements OnInit{
             next: result => {
 
                 console.log("Persona dada de alta satisfactoriamente")
+                this.updateHistorial();
+          
             },
             error: err => this.errorMessage = err,
         })
