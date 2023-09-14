@@ -45,18 +45,12 @@ namespace Api.Controllers
         }
 
 
-        [HttpPost("crear")]
+        [HttpPost]
         public async Task<ActionResult> GuardarHistorial([FromBody] PersonaPostDTO personaDTO)
         {
             try
             {
-                var historialModel = new Persona()
-                {
-                    Id = new Guid(),
-                    Nombre = personaDTO.Nombre,
-                    FechaNacimiento = personaDTO.FechaNacimiento,
-                    Telefono= personaDTO.Telefono
-                };
+                Persona historialModel = _mapper.Map<Persona>(personaDTO);
 
                 await _personaService.GuardarPersona(historialModel);
                 return Ok(new { message = "Registro de Historial guardado con exito" });

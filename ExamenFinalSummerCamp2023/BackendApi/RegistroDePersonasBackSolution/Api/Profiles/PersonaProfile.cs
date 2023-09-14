@@ -9,6 +9,9 @@ namespace Api.Profiles
         public PersonaProfile() {
             CreateMap<Persona, PersonaGetDTO>().ForMember(dto => dto.anios, ent =>
                 ent.MapFrom(val => $"{ConvertirDateEnAnios(val.FechaNacimiento)}"));
+
+            CreateMap<PersonaPostDTO, Persona>().ForMember(p => p.Id, ent =>
+                ent.MapFrom(val => new Guid()));
         }
 
         private static int ConvertirDateEnAnios(DateTime date)
